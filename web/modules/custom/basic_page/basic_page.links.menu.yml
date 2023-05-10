@@ -1,0 +1,6 @@
+basic_page.basicPage:
+    title: Basic Page
+    Description: Basic Page Link
+    route_name: basic_page.basicPage
+    weight: 5
+    menu_name: main

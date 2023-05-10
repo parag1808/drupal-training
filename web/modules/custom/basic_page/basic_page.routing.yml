@@ -1,0 +1,14 @@
+basic_page.basicPage:
+    path: '/basic-page'
+    defaults:
+        _controller: '\Drupal\basic_page\Controller\BasicPageController::basicPage'
+        _title: 'Basic Page'
+    requirements:
+        _permission: 'access content'
+
+basic_page.information:
+    path: '/info'
+    defaults:
+        _controller: '\Drupal\basic_page\Controller\BasicPageController::information'
+    requirements:
+        _permission: 'access content'
